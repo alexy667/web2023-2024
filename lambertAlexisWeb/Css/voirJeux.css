@@ -1,0 +1,29 @@
+html {
+    background-image: url(../img/valorant2.jpg);
+    background-repeat: repeat-y;
+}
+
+main,footer,header {
+    color: white;
+}
+
+iframe {
+    width: 500px;
+    height: 500px;
+}
+
+td,th{
+    border: solid grey 1px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.menu {
+    background-color: black;
+}
+
+#description {
+    width: 500px;
+}

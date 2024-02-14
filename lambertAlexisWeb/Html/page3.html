@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/flex.css">
+    <link rel="stylesheet" href="../Css/style.css">
+    <title>page profil</title>
+</head>
+
+<body>
+    <header>
+        <ul class="flexible justify-content-space-evenly">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="page2.html">Mes préféré</a></li>
+            <li><a href="#">Page profil</a></li>
+        </ul>
+    </header>
+    <main>
+        <h1>Mon profil</h1>
+        <div class="field">
+            <label for="email_input">Veuillez saisir une adresse email :</label>
+            <input type="email" id="email_input" required />
+        </div>
+        <ol class="flexible justify-content-space-around">
+            <li>Nom :
+                <p>Lambert</p>
+            </li>
+            <li>Prénom :
+                <p>Alexis</p>
+            </li>
+
+            <li>Adresse postal :
+                <p>Lorem ipsum dolor sit amet.</p>
+            </li>
+        </ol>
+        <div class="progress">
+            <div class="progress-bar"></div>
+        </div>
+        <img class="flexible" id="imageProfil" src="../img/profil.png"alt="photo profil">
+    </main>
+    <footer class="flexible justify-content-space-between">
+        <p>Lambert Alexis</p>
+        <p>Site d'instruction</p>
+    </footer>
+</body>
+
+</html>
